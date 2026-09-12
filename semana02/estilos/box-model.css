@@ -1,15 +1,27 @@
 .callout {
-	
+    background-color: #254d7e;
+    /*define cor azul para o fundo*/
+    padding: 20px;
+    /*cria um espaço interno entre o conteudo e sua borda*/
+    width: 600px;
+    /*define to tamanho total da caixa*/
+    margin: 0 auto;
+    /* Espaço FORA da caixa e centralização */
 }
 
 .callout img {
-	
+    float: right;
+    /*move a imagem para a direita*/
+    border: 2px solid black;
+    /*cria uma boda na imagem*/
+    margin-left: 20px;
+    /* adiciona uma bora a esquerda*/
 }
 
 blockquote {
-	
+    font-size: 1.2rem;
 }
 
 cite {
-	
+    border-top: 1px dotted white;
 }

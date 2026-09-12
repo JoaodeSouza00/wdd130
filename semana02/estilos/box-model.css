@@ -7,21 +7,31 @@
     /*define to tamanho total da caixa*/
     margin: 0 auto;
     /* Espaço FORA da caixa e centralização */
+    box-sizing: border-box;
 }
 
 .callout img {
     float: right;
     /*move a imagem para a direita*/
-    border: 2px solid black;
+    border: 4px solid white;
     /*cria uma boda na imagem*/
     margin-left: 20px;
     /* adiciona uma bora a esquerda*/
+    width: 150px;
+
 }
 
-blockquote {
+blockquote p {
     font-size: 1.2rem;
+    margin: 20px 0;
 }
 
 cite {
     border-top: 1px dotted white;
+    /* adiciona a linha tracejada*/
+    text-align: right;
+    /*move o texto para a direita */
+    display: block;
+    /*permite a ultilização de todo espaço disponivel*/
+    padding-top: 8px;
 }

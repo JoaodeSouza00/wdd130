@@ -3,6 +3,19 @@ nav {
     padding: 10px;
 }
 
+main {
+    max-width: 840px;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 nav a {
     color: white;
     display: block;
@@ -11,6 +24,25 @@ nav a {
 
 h1 {
     color: darkblue;
+}
+
+h2 {
+    text-align: center;
+}
+
+aside {
+    width: 55rem;
+    border: 2px solid rgb(86, 80, 80);
+    padding: 10px;
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+.foto-museu {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 img {
@@ -22,5 +54,11 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0px;
+}
+
+footer {
+    margin-top: 40px;
+    border-top: 2px solid #6b6b6b;
+    text-align: center;
 }

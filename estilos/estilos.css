@@ -35,13 +35,14 @@ h2 {
 
 aside {
     width: 55rem;
+    margin: 1rem;
     border: 2px solid rgb(86, 80, 80);
     padding: 10px;
     background-color: #e0e0e0;
     color: #333;
 }
 
-.foto-museu {
+aside img {
     width: 200px;
     height: auto;
     display: block;

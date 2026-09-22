@@ -32,7 +32,7 @@ article {
     padding: 8px;
 }
 
-.redes-sociais a {
+footer a {
     text-decoration: none;
 }
 
@@ -60,7 +60,7 @@ h1 {
 
 }
 
-article {
+.hero article {
     position: absolute;
     bottom: 16px;
     left: 16px;
@@ -71,9 +71,10 @@ article {
     background-color: rgba(38, 70, 83, 0.65);
     backdrop-filter: blur(6px);
     color: #f3f3f3;
+    border: 2px solid var(--cor-destaque2);
 }
 
-article p {
+.hero article p {
     padding-right: 150px;
 }
 
@@ -95,5 +96,5 @@ article p {
 }
 
 footer {
-    background-color: #055a05;
+    background-color: var(--cor-secundaria);
 }

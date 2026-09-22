@@ -22,6 +22,13 @@ main img {
     box-shadow: 0 0 30px gray;
 }
 
+main,
+aside {
+    width: 840px;
+    max-width: calc(100% - 2rem);
+    margin: 1rem;
+}
+
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -33,8 +40,11 @@ nav a {
 }
 
 p {
-    width: 55rem;
-    color: #333;
+    width: auto;
+    max-width: 100%;
+    padding: 0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 h1 {
@@ -46,10 +56,12 @@ h2 {
 }
 
 aside {
-    width: 55rem;
+    width: 800px;
+    max-width: 59%;
     color: #333;
     text-align: center;
     position: relative;
+
 }
 
 aside img {
@@ -74,12 +86,6 @@ img {
     box-shadow: 0 0 30px gray;
 }
 
-p {
-    padding: 0px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
 footer {
     margin-top: 40px;
     border-top: 2px solid #6b6b6b;
@@ -88,10 +94,12 @@ footer {
 
 /*seletores de classe*/
 .caixa {
+    width: 100%;
+    margin: 0;
+    padding: 10px 30px 10px 10px;
     border: 2px solid rgb(86, 80, 80);
-    padding: 10px;
-    margin: 1rem;
     background-color: #e0e0e0;
+    margin-left: 40px;
 }
 
 .identacao {

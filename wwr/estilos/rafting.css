@@ -19,7 +19,8 @@ footer {
 
 header {
     display: grid;
-    grid-template-columns: 1fr 2fr
+    grid-template-columns: 1fr 2fr;
+    color: white;
 }
 
 nav {
@@ -76,7 +77,7 @@ footer a {
 
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -183,7 +184,7 @@ figcaption {
 }
 
 :root {
-    --cor-primaria: #018f9c;
+    --cor-primaria: #83c5be;
     --cor-secundaria: #04233f;
     --cor-destaque1: #264653;
     --cor-destaque2: #e9c46a;

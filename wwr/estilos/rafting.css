@@ -89,6 +89,33 @@ h1 {
 
 }
 
+section h2 {
+    margin-bottom: 20px;
+}
+
+.aventura {
+    display: flex;
+    gap: 25px;
+    justify-content: center
+}
+
+figcaption {
+    text-align: center;
+    color: #fff;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 15px;
+
+}
+
+.socialmedia img {
+    width: 60px;
+    height: auto;
+
+}
+
 .hero article {
     position: absolute;
     bottom: 16px;
@@ -152,11 +179,12 @@ h1 {
 .imagens-gerais {
     width: 140px;
     height: 93px;
+    border: 2px solid var(--cor-destaque2);
 }
 
 :root {
     --cor-primaria: #018f9c;
-    --cor-secundaria: #83c5be;
+    --cor-secundaria: #04233f;
     --cor-destaque1: #264653;
     --cor-destaque2: #e9c46a;
 
@@ -166,4 +194,14 @@ h1 {
 
 footer {
     background-color: var(--cor-secundaria);
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+footer p {
+    color: #fff;
+}
+
+section:last-child {
+    margin-bottom: 0;
 }

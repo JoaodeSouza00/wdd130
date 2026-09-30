@@ -14,6 +14,35 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
+    background-color: #04233f;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr
+}
+
+nav {
+
+    padding: 15px;
+    border-radius: 8px;
+    align-self: center;
+    justify-self: center
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    list-style: none;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+
 }
 
 h1,
@@ -28,8 +57,8 @@ nav,
 p,
 section,
 article {
-    margin: 16px;
-    padding: 8px;
+    margin: 12px;
+    padding: 6px;
 }
 
 footer a {
@@ -76,6 +105,7 @@ h1 {
 
 .hero article p {
     padding-right: 150px;
+
 }
 
 .hero article img {
@@ -85,8 +115,47 @@ h1 {
 
 }
 
+.historia {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr;
+    gap: 10px;
+    align-items: start;
+
+}
+
+.historia p:first-of-type {
+    grid-column: 1;
+}
+
+.historia img {
+    width: 250px;
+    height: auto;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.historia p:last-of-type {
+    grid-column: 3;
+}
+
+.historia h2 {
+    grid-column: 1/4;
+
+}
+
+.historia p {
+    color: #f3f3f3;
+    margin: 0;
+
+}
+
+.imagens-gerais {
+    width: 140px;
+    height: 93px;
+}
+
 :root {
-    --cor-primaria: #006d77;
+    --cor-primaria: #018f9c;
     --cor-secundaria: #83c5be;
     --cor-destaque1: #264653;
     --cor-destaque2: #e9c46a;

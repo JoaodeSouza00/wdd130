@@ -17,6 +17,10 @@ footer {
     background-color: #04233f;
 }
 
+main {
+    color: white;
+}
+
 header {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -201,6 +205,7 @@ footer {
 
 footer p {
     color: #fff;
+    align-self: end;
 }
 
 section:last-child {

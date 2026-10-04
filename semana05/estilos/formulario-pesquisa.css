@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    display: grid;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+
+    width: 650px;
+    gap: 8px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+input {
+    width: 100%;
+}
+
+label {
+    text-align: right;
+}
+
+fieldset {
+    display: grid;
+    gap: 8px;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+legend {
+    padding: .5rem;
+}
+
+input, select, textarea {
+    padding: .5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+button {
+    padding: .5rem;
+    font-size: 1.1rem;
+    border-radius: .5rem;
+    border: none;
+    background-color: navy;
+    color: white;
+}
+
+button:hover {
+    background-color: #444;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.item-formulario {
+    display: grid;
+    align-items: center;
+}
+
+.coluna1 {
+    grid-template-columns: 3fr 1fr;
+}
+
+.coluna2 {
+    grid-template-columns: 1fr 2fr;
+}

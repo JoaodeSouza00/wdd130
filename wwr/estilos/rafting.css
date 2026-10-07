@@ -109,13 +109,13 @@ figcaption {
     color: #fff;
 }
 
-.socialmedia {
+.redes-sociais {
     display: flex;
     gap: 15px;
 
 }
 
-.socialmedia img {
+.redes-sociais img {
     width: 60px;
     height: auto;
 
@@ -203,7 +203,7 @@ footer {
     grid-template-columns: 3fr 1fr;
 }
 
-footer p {
+footer {
     color: #fff;
     align-self: end;
 }

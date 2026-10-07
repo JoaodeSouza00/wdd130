@@ -201,9 +201,6 @@ footer {
     background-color: var(--cor-secundaria);
     display: grid;
     grid-template-columns: 3fr 1fr;
-}
-
-footer {
     color: #fff;
     align-self: end;
 }
